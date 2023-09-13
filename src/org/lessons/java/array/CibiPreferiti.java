@@ -12,6 +12,8 @@ public class CibiPreferiti {
         // Richiedi all'utente il numero di elementi della classifica
         System.out.println("Inserisci il numero di elementi della classifica:");
         int n = scanner.nextInt();
+        scanner.nextLine(); // Consuma il carattere di nuova linea rimasto nel buffer
+
 
         // Controlla che il numero di elementi sia compreso tra 5 e 10
         if (n < 5 || n > 10) {
